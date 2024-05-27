@@ -26,13 +26,13 @@ then
 		--skip-invalid-size-inputs-valid-test \
 		--fixed-validation-seed 0 \
 		--ddp-backend no_c10d \
-		--save-interval-updates 50 \
+		--save-interval-updates 1000 \
 		--reset-optimizer \
         --expand-layer
 
 elif [ "$TASKS" = "GPT" ]
 then
-    TOTAL_UPDATES=2000000    # Total number of training steps
+    TOTAL_UPDATES=20000   # Total number of training steps
     PEAK_LR=0.0005        # Peak learning rate, adjust as needed
     TOKENS_PER_SAMPLE=512   # Max sequence length
     MAX_POSITIONS=512       # Num. positional embeddings (usually same as above)
@@ -55,7 +55,7 @@ then
 		--skip-invalid-size-inputs-valid-test \
 		--fixed-validation-seed 0 \
 		--ddp-backend no_c10d \
-		--save-interval-updates 200000 \
+		--save-interval-updates 1000 \
 		--reset-optimizer \
         --expand-hidden
 
