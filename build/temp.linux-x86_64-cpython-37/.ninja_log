@@ -1,0 +1,6 @@
+# ninja log v5
+8	155	1716278203000000000	/mnt/vol1/gaowenchun/new/roberta_test/ELLE-main/fairseq-0.9.0/build/temp.linux-x86_64-cpython-37/fairseq/clib/libbleu/module.o	1fe3aa34417ac715
+7	370	1716278203000000000	/mnt/vol1/gaowenchun/new/roberta_test/ELLE-main/fairseq-0.9.0/build/temp.linux-x86_64-cpython-37/fairseq/clib/libbleu/libbleu.o	f61b93d7235b3d0c
+6	5222	1716278209000000000	/mnt/vol1/gaowenchun/new/roberta_test/ELLE-main/fairseq-0.9.0/build/temp.linux-x86_64-cpython-37/fairseq/data/data_utils_fast.o	a1a2c90922b54a7d
+3	6151	1716278217000000000	/mnt/vol1/gaowenchun/new/roberta_test/ELLE-main/fairseq-0.9.0/build/temp.linux-x86_64-cpython-37/fairseq/data/token_block_utils_fast.o	8473c76ea1c90f6b
+5	22037	1716278239000000000	/mnt/vol1/gaowenchun/new/roberta_test/ELLE-main/fairseq-0.9.0/build/temp.linux-x86_64-cpython-37/fairseq/clib/libnat/edit_dist.o	55b1bd085ee23772
