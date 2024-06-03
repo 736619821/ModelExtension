@@ -41,7 +41,7 @@ bash pretrain_exp.sh GPT
 bash pretrain_exp.sh ROBERTA
 
 ```
-In our experiment, we use [RoBERTa](https://arxiv.longhoe.net/abs/1907.11692) as our base model. You can load your own checkpoint by changing the ckpt directory in _.sh_
+In our experiment, we use [RoBERTa](https://arxiv.longhoe.net/abs/1907.11692) as our base model. You can load your own checkpoint by changing the ckpt directory in pretrain_exp.sh
 
 
 ## Fine-tuning
