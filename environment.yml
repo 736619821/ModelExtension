@@ -1,4 +1,4 @@
-name: enviroment_name
+name: environment_name
 channels:
   - pytorch
   - nvidia
@@ -273,4 +273,4 @@ dependencies:
       - xxhash==3.4.1
       - yarl==1.9.4
       - zipp==3.15.0
-prefix: /root/miniconda3/envs/enviroment_name
+prefix: /root/miniconda3/envs/environment_name
