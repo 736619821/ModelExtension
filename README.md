@@ -50,7 +50,7 @@ Follow `./README.glue.md` to download and pre-process GLUE datasets.
 bash eval_glue.sh QQP
 ```
 
-For other dwonstream tasks, see [Don't stop pretraining](https://github.com/allenai/dont-stop-pretraining) for more details.
+For other downstream tasks, see [Don't stop pretraining](https://github.com/allenai/dont-stop-pretraining) for more details.
 
 
 # Citation
