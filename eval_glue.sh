@@ -23,7 +23,6 @@ then
 elif [ "$TASKS" = "QNLI" ]
 then
     echo $TASKS
-    echo "1111111111111"
     TOTAL_NUM_UPDATES=33112  # 10 epochs through RTE for bsz 16
     WARMUP_UPDATES=1986      # 6 percent of the number of updates
     LR=1e-5            # Peak LR for polynomial LR scheduler.

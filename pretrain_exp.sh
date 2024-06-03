@@ -28,6 +28,8 @@ then
 		--ddp-backend no_c10d \
 		--save-interval-updates 1000 \
 		--reset-optimizer \
+        --expand-layer \
+		--extend
 
 elif [ "$TASKS" = "GPT" ]
 then
@@ -56,6 +58,8 @@ then
 		--ddp-backend no_c10d \
 		--save-interval-updates 1000 \
 		--reset-optimizer \
+        --expand-hidden \
+		--extend
 fi
 
 
